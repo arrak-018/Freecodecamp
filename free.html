@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="styles2.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+  <label id="name-label">Name<br><input <input type="text" id="name" placeholder="Enter your name" checkbox="name" required></label><br>
+  <label id="email-label">Email<br><input type="email" id="email" placeholder="Enter your Email" checkbox="email" required></label><br>
+  <label id="number-label">Age(optional)<br><input type="number" id="number" placeholder="Enter your Age" min="12" max="18"></label><br>
+  <label for="dropdowm">Which option best describes your current role<br></label>
+  <select id="dropdown">
+    <option>Select your current role</option>
+    <option>Full time job</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>    
+    </select><br>
+      <label><input name="user-recommend" value="user-recommend" type="radio" checked="">Definitely<br></label>
+      <label><input name="user-recommend" value="user-recommend"  type="radio" checked="">Maybe</label><br>
+       <field>
+        <label for="referrer">What is your favorite feature of freeCodeCamp?<br>
+          <select id="referrer" name="referrer">
+            <option value="">select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+      </field><br>
+      <label for="bio">Any comments or suggestions<br>
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment over here...."></textarea>
+        </label><br>
+        What would you like to see improved?(check all that apply)<br><label><input type="checkbox" value="front-end projects">Front-end Projects</label><br>
+<label><input type="checkbox" value="backe-end projects">Back-end Projects</label><br>
+  <input type="submit" id="submit" value="Submit">
+
+</form>
+
+  </body>
+</html>
